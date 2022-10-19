@@ -1,0 +1,66 @@
+nav{
+    background-image: linear-gradient(to bottom right, #b02ec7, #ed7905);
+    height: 60px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    @media screen and (max-width: 960px) {
+        transition: 0.8s all ease;
+    }
+}
+
+
+navcontainer{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    padding: 0px 24px;
+
+}
+
+navlogo{
+    color:blanchedalmond;
+    justify-self: flex-start;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+navitems{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin-right: 22px;
+
+    @media screen and (max-width: 768px){
+        display: none;
+    }
+};
+
+navitem{
+    height: 80px;
+}
+
+navlinks{
+    display: flex;
+    color:brown;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 10px;
+    height: 100%;
+    cursor: pointer;
+}
+
